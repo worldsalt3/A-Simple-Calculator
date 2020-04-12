@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+div.container {
+    display: flexbox;
+    flex-wrap: wrap;
+    border: none;
+    max-width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.screen {
+    height: 100px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+}
+
+div.row-1 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+}
+
+button.clear-all-btn {
+    width: 50%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px;
+    background-color: rgb(144, 144, 144);
+    outline: none;
+}
+
+button.clear-btn {
+    width: 25%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px;
+    background-color: rgb(144, 144, 144);
+    outline: none;
+}
+
+button.div {
+    width: 25%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px;
+    outline: none;
+}
+
+div.row-2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+}
+
+button.btn {
+    width: 33.33%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px;
+    background-color: rgb(144, 144, 144);
+    outline: none;
+}
+
+div.row-3 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+}
+
+div.row-4 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+}
+
+div.row-5 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+}
+
+button.zero-btn {
+    width: 75%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px;
+    background-color: rgb(144, 144, 144);
+    outline: none;
+}
+
+button.equal-btn {
+    width: 25%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px;
+    outline: none;
+}
+
+button.symbol {
+    background-color: rgb(255, 120, 71);
+    color: white;
+    font-weight: bold;
+}
+
+button.hover-btn:hover {
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+}
+
+button.symbol:hover {
+    cursor: pointer;
+    background-color: rgb(187, 75, 35);   
+}
+
+.link {
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
